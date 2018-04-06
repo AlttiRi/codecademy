@@ -1,3 +1,5 @@
+# [Codecademy HTML Examples](https://alttiri.github.io/codecademy/)
+
 Примеры веб-страниц из курсов на [codecademy.com](https://www.codecademy.com)
 
 - [Learn HTML & CSS](https://www.codecademy.com/courses/learn-html-css)*
