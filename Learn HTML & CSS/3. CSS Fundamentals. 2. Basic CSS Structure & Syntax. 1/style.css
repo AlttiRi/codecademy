@@ -11,7 +11,7 @@ p {
   font-family: Helvetica, Arial, sans-serif; 
 }
 
-.container {
+.main-container {
   max-width: 940px;
   margin: 0 auto;
 }
@@ -24,7 +24,7 @@ p {
   height: 600px;
 }
 
-.main .container {
+.main .main-container {
   position: relative;
   top: 100px;
 }
@@ -97,7 +97,7 @@ p {
   text-align: center;
 }
 
-.feature .container {
+.feature .main-container {
   position: relative;
   top: 200px;
 }
@@ -117,7 +117,7 @@ p {
   text-align: center;
 }
 
-.footer .container {
+.footer .main-container {
   position: relative;
   top: 200px;
 }

@@ -1,0 +1,54 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  background: url('images/bill.jpg') no-repeat center left fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 12em;
+  padding: 3em 2em;
+}
+
+header h1 {
+  color: white;
+  display: inline;
+  background-color: darkred;
+  padding: 0.55em 1.25em;
+  font-family: cursive;
+  font-size: 2.5em;
+}
+
+.about {
+  text-align: center;
+  padding: 3em;
+  font-family: cursive;
+}
+
+h4 {
+  display: inline;
+  background-color: darkred;
+  padding: 0.75em 1.25em;
+  color: white;
+  text-transform: uppercase;
+  font-size: 85%;
+  letter-spacing: 0.125em;
+}
+
+.books, .contact {
+  margin: 3em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.books img, .contact img {
+  margin: 1em;
+}
+
+footer {
+  text-align: center;
+}
