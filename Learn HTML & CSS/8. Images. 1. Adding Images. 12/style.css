@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-#cover {  
+#cover {
   background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat center bottom;
   /*
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg");
@@ -14,7 +14,7 @@ body {
   /*background-size: contain;*/
   background-size: cover;
   background-attachment: fixed;
-  
+
   height: 900px;
   position: relative;
   top: -55px;
@@ -50,7 +50,7 @@ li {
   color: #FCA311;
   font-family: 'Amatic SC', cursive;
   font-size: 32px;
-  padding: 0px 50px;
+  padding: 0 50px;
 }
 
 .cover-content {
@@ -91,7 +91,7 @@ h4 {
   color: #FCA311;
   font-family: 'Abel', sans-serif;
   font-size: 24px;
-  margin: 0px 0px 50px 0px;
+  margin: 0 0 50px 0;
 }
 
 p {
@@ -119,13 +119,13 @@ a {
   box-sizing: border-box;
   width: 90%;
   margin: 20px auto;
-  padding: 20px 0px;
+  padding: 20px 0;
   text-align: center;
 }
 
 .product {
   display: inline-block;
-  margin: 0px 2% 80px 2%;
+  margin: 0 2% 80px 2%;
   text-align: center;
   width: 45%;
 }

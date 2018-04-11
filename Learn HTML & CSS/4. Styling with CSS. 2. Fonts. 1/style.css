@@ -77,9 +77,9 @@ p {
 }
 
 .writer-img {
-  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -webkit-box-shadow: 5px 0 5px 0 rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0 5px 0 rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0 5px 0 rgba(0, 0, 50, 0.97);
   float: left;
   width: 50px;
 }

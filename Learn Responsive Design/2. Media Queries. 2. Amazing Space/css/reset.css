@@ -94,7 +94,7 @@ pre {
 a {
     background-color: transparent;
     /* 1 */
-    -webkit-text-decoration-skip: objects;
+    text-decoration-skip: objects;
     /* 2 */
 }
 
@@ -113,7 +113,7 @@ a:active, a:hover {
 abbr[title] {
     border-bottom: none;
     /* 1 */
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     /* 2 */
     text-decoration: underline dotted;
     /* 2 */

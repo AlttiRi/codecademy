@@ -45,7 +45,7 @@ h3 {
   font-size: 28px;
   font-weight: 400;
   line-height: 30px;
-  margin: 10px 0px;
+  margin: 10px 0;
   text-align: center;
 }
 
@@ -100,8 +100,8 @@ p {
 
 .prop {
   border: 1px solid #FFF;
-  padding: 40px 0px;
-  margin: 5px 0px;
+  padding: 40px 0;
+  margin: 5px 0;
 }
 
 .prop h2 {

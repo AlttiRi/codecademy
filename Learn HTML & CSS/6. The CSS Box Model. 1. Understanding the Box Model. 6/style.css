@@ -109,7 +109,7 @@ p {
 }
 
 .content-box ul {
-  padding: 40px 0px;
+  padding: 40px 0;
 }
 
 .content-box li {
@@ -128,7 +128,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  margin: 10px 0px;
+  margin: 10px 0;
   padding: 20px;
   text-decoration: none;
   text-transform: uppercase;

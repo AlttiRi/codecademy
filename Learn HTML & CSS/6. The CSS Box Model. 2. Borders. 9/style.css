@@ -50,11 +50,11 @@ p {
   /*border-color: #AF3432;*/
   /*border-width: 4px 2px 4px 2px;*/
   /*border-top-width: 5px;
-  border-style: solid;*/  
+  border-style: solid;*/
   border-radius: 10px;
-  border: 2px solid #FFF;  
+  border: 2px solid #FFF;
   margin: 60px auto;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0 0 0;
   width: 90%;
 }
 
@@ -87,7 +87,7 @@ a {
 
 ul {
   padding: 0;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 li {
