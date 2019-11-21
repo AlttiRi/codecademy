@@ -1,0 +1,136 @@
+.main-container-old {
+    flex-grow: 5;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-bottom: 0.33em;
+}
+
+.centering-lines {
+    text-align: center;
+    padding-bottom: 0.001em;
+}
+
+.centering-boxes-column { /* Block width is the maximum length of content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footnote {
+    color: #888;
+    margin: 0;
+}
+
+
+
+/* Disable user agent CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+
+    box-sizing: border-box;
+    /*border: 1px dotted;*/
+}
+
+/*---------------------------*/
+
+
+:root {
+    --header-bg-color: #24292e;
+    --header-font-color: #aaa;
+    --h-font-color: #444;
+    --font-color: #1c1c1c;
+    --link-color: #444;
+    --link-visited-color: #4a4a4a;
+
+    --defaul-scrollbar-bg-color: #f1f1f1; /*rgba(241, 241, 241, 1) || rgba(0, 0, 0, 0.06) || hsla(0, 0%, 95%, 1)*/
+}
+
+
+/* Standard tags */
+
+html {
+    color: var(--font-color);
+    font-family: 'Roboto', sans-serif;
+
+    /* Scrollbar fix */
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    display: flex;
+}
+
+h1,
+h2 {
+    color: var(--h-font-color);
+}
+
+h1 {
+    font-size: 2em;
+    padding-top: 0.67em;
+    margin-bottom: 0.67em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-top: 0.85em;
+    margin-bottom: 0.85em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.66em;
+}
+
+li > p {
+    margin-left: 0;
+}
+
+ol,
+ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:visited {
+    color: var(--link-visited-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    /*text-decoration: none;*/
+    /*text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.25);*/
+}
+
+
+hr {
+    width: 100%;
+    height: 1px;
+    margin: 2em 0;
+    border: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0) 90%);
+}
+
+/*-------------------- Selection -----------------*/
+
+::selection {
+    background: #24292e;
+    color: #f1f1f1;
+}
