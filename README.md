@@ -9,3 +9,6 @@ Examples of web pages from courses on [codecademy.com](https://www.codecademy.co
 ---
 
 _*This course is no longer available._
+
+---
+This repository was created on 2017.12.04
